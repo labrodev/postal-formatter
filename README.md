@@ -2,7 +2,6 @@
 
 **Labrodev\PostalFormatter** is a strict PHP 8.1+ utility library that provides robust formatting for European postal codes, following official formatting standards country-by-country.
 
----
 
 ## Features
 
@@ -13,15 +12,12 @@
 - Fully typed with strict mode (`declare(strict_types=1)`)
 - Includes PHPUnit and PHPStan support for testing and analysis
 
----
 
 ## Installation
 
 ```
 composer require labrodev/postal-formatter
 ```
-
----
 
 ## Usage
 
@@ -39,8 +35,6 @@ echo PostalFormatter::format('1050', 'LV'); // "LV-1050"
 
 List of available country codes you may find in CountryCode Enum (Labrodev/PostalFormatter/Enums/CountryCode).
 
----
-
 ## Testing
 
 To run tests:
@@ -50,7 +44,6 @@ composer install
 composer test
 ```
 
----
 
 ## Static Analysis
 
@@ -63,26 +56,18 @@ composer analyse
 
 > Configuration is located in `phpstan.neon.dist`
 
----
-
 ## Security
 
 If you discover a security vulnerability within this package, **please contact us immediately at [contact@labrodev.com](mailto:contact@labrodev.com)**. All security-related issues will be handled privately and promptly.
-
----
 
 ## Credits
 
 This package is maintained by **Labrodev** — Laravel & PHP development studio.  
 [https://github.com/labrodev](https://github.com/labrodev)
 
----
-
 ## Feedback
 
 If you have any questions, suggestions, or have found an error — feel free to open an issue or contact us:  
 📬 **contact@labrodev.com**
-
----
 
 **License:** MIT
