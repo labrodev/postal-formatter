@@ -1,0 +1,17 @@
+includes:
+    - vendor/phpstan/phpstan/conf/bleedingEdge.neon
+
+parameters:
+    level: 9
+    paths:
+        - src
+        - tests
+
+    checkMissingIterableValueType: true
+    checkGenericClassInNonGenericObjectType: true
+    checkUninitializedProperties: true
+
+    reportUnmatchedIgnoredErrors: true
+
+    excludes_analyse:
+        - tests/bootstrap.php
