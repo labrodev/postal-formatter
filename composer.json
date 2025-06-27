@@ -1,5 +1,5 @@
 {
-    "name": "labrodev/php-postal-formatter",
+    "name": "labrodev/postal-formatter",
     "description": "PHP utility class that provides methods to convert mixed values to strings, ints or floats",
     "keywords": [
         "labrodev",
@@ -12,7 +12,7 @@
         "strict_types"
     ],
     "type": "library",
-    "homepage": "https://github.com/labrodev/php-postal-formatter",
+    "homepage": "https://github.com/labrodev/postal-formatter",
     "license": "MIT",
     "authors": [
         {
@@ -23,8 +23,8 @@
     ],
     "support": {
         "email": "admin@labrodev.com",
-        "issues": "https://github.com/labrodev/php-postal-formatter/issues",
-        "source": "https://github.com/labrodev/php-postal-formatter"
+        "issues": "https://github.com/labrodev/postal-formatter/issues",
+        "source": "https://github.com/labrodev/postal-formatter"
     },
     "require": {
         "php": ">=8.1"
