@@ -1,6 +1,6 @@
 {
     "name": "labrodev/postal-formatter",
-    "description": "PHP utility class that provides methods to convert mixed values to strings, ints or floats",
+    "description": "PHP utility library that provides robust formatting for European postal codes, following official formatting standards country-by-country.",
     "keywords": [
         "labrodev",
         "php",
